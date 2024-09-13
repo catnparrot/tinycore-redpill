@@ -33,6 +33,37 @@
       ]
     },
     {
+      "id": "ds918p-6.2.4-25556-JUN",
+      "platform_version": "ds918p-6.2.4-25556",
+      "user_config_json": "apollolake_user_config.json",
+      "docker_base_image": "debian:8-slim",
+      "compile_with": "toolkit_dev",
+      "redpill_lkm_make_target": "test-v7",
+      "downloads": {
+        "kernel": {
+          "url": "https://global.synologydownload.com/download/ToolChain/Synology NAS GPL Source/6.2-25556/apollolake/linux-4.4.x.txz",
+          "md5": "b0105c224ce0468391ce1027a90d944a"
+        },
+        "toolkit_dev": {
+          "url": "https://global.synologydownload.com/download/ToolChain/toolkit/6.2/apollolake/ds.apollolake-6.2.dev.txz",
+          "md5": "a3f6c929a6112fbd1b0681f453464963"
+        }
+      },
+      "redpill_lkm": {
+        "source_url": "https://github.com/pocopico/redpill-lkm.git",
+        "branch": "master"
+      },
+      "redpill_load": {
+        "source_url": "https://github.com/pocopico/redpill-load.git",
+        "branch": "develop"
+      },
+      "add_extensions": [
+        {
+          "redpill-misc": "https://github.com/pocopico/redpill-load/raw/develop/redpill-misc/rpext-index.json"
+        }
+      ]
+    },
+    {
       "id": "ds918p-7.0.1-42218-JUN",
       "platform_version": "ds918p-7.0.1-42218",
       "user_config_json": "apollolake_user_config.json",
