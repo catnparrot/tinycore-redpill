@@ -77,12 +77,12 @@
             "redpill_lkm_make_target": "dev-v6",
             "downloads": {
                 "kernel": {
-                    "url": "https://sourceforge.net/projects/dsgpl/files/Synology%20NAS%20GPL%20Source/25426branch/apollolake-source/linux-4.4.x.txz/download",
-                    "sha256": "af815ee065775d2e569fd7176e25c8ba7ee17a03361557975c8e5a4b64230c5b"
+                    "url": "https://global.synologydownload.com/download/ToolChain/Synology NAS GPL Source/6.2-25556/apollolake/linux-4.4.x.txz",
+                    "md5": "b0105c224ce0468391ce1027a90d944a"
                 },
                 "toolkit_dev": {
-                    "url": "https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2/ds.apollolake-6.2.dev.txz/download",
-                    "sha256": "4ed228ed21e4190f1ad77a565616409ea1bfb9d271dbf523c636c62c2e8dcf89"
+                    "url": "https://global.synologydownload.com/download/ToolChain/toolkit/6.2/apollolake/ds.apollolake-6.2.dev.txz",
+                    "md5": "a3f6c929a6112fbd1b0681f453464963"
                 }
             },
             "redpill_lkm": {
